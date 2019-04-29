@@ -18,7 +18,7 @@ mv .github/CNAME .
 
 # create a 'dummy' git repository and commit all the files to later force-push
 # into the gh-pages branch
-#git init
+git init
 git add -A
 git commit -m 'deploy'
 
